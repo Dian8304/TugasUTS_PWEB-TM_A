@@ -1,0 +1,515 @@
+*{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+body {
+    background-image: url('assets/sprite-horizontal.png');
+    background-repeat: repeat-x;
+    background-color: #add5ff;
+    background-position: 0px -125px;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('assets/top-nav-bg.png');
+    background-repeat: repeat-x;
+    background-position: 0px 2px;
+    background-color: #2E353D;
+    background-size: 10px 90px;
+    z-index: 1;
+    height: 82px;
+    border-top: 1px solid #444;
+    margin-top: 0;
+    box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.2);
+}
+.atas{
+    justify-content: center;
+    width: 100%;
+}
+.logo{
+    margin-left: 0;
+}
+.logo img{
+    width: 123px;
+    height: 39px;
+    margin: 5px 0px 0px 11px;
+    float: left;
+}
+.logo p{
+    color: #EEEEEE;
+    padding-top: 5px;
+    margin-top: 18px;
+    margin-left: 20px;
+    float: left;
+    font-size: 14px;
+}
+.menu1{
+    margin-right: 15px;
+}
+.menu1 ul{
+    float: right;
+    color: #EEEEEE;
+    margin: 0;
+    list-style: none;
+}
+.menu1 li{
+    font-size: 0.8em;
+    float: left;
+    display: block;
+    position: relative;
+    padding: 15px 15px 8px;
+    line-height: 20px;
+    margin: 0;
+}
+.lang{
+    color: #EEEEEE;
+    padding-top: 60px;
+    font-size: 14px;
+}
+.lang .pilih-bahasa{
+    margin-left: 10px;
+    float: left;
+}
+.lang .login-signin{
+    margin-right: 45px;
+    float: right;
+}
+.btn-bhs{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+}
+.btn-bhs .down-chevron{
+    width: 10px;
+    height: 10px;
+}
+.kotak{
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 40px;
+}
+.content{
+    background-image: url('assets/trans-white-bg-20.png');
+    border-radius: 5px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 0;
+    padding-right: 0;
+    display: inline-flex;
+}
+.kiri{
+    padding: 10px;
+    display: block;
+    width: 15.5%;
+    float: left;
+    line-height: 1.4;
+    position: relative;
+    min-height: 1px;
+}
+.menu{
+    padding-left: 0;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+.pil-menu{
+    color: #555;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    text-decoration: none;
+    font-size: 14px;
+}
+.pil-menu small{
+    display: block;
+    margin-left: 22px;
+    margin-top: 3px;
+    font-size: 85%;
+}
+.menu .active{
+    background-color: #428BCA;
+    padding: 10px 15px;
+    color: #FFF;
+    border: 1px solid #428BCA;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    display: block;
+}
+.active small{
+    display: block;
+    margin-left: 22px;
+    margin-top: 3px;
+    font-size: 85%;
+}
+.active img{
+    height: 14px;
+}
+.iklan img{
+    width: 100%;
+}
+.masuk{
+    margin-bottom: 20px;
+}
+.masuk a{
+    padding: 10px 15px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    display: block;
+    position: relative;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.42;
+    text-decoration: none;
+}
+.time-line{
+    min-height: 60px;
+    font-size: 13px;
+    color: #555;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    line-height: 1.42;
+}
+.time-line img{
+    background: #E8E3D9;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 40px;
+    float: left;
+    vertical-align: middle;
+}
+.time-line a{
+    color: #555;
+    font-weight: bold;
+    text-decoration: none;
+    background: transparent;
+    font-size: 0.9em;
+}
+.time-line strong{
+    font-weight: bold;
+    color: #555;
+}
+.time-line .type-test{
+    color: #428BCA;
+    font-weight: normal;
+}
+.kanan{
+    width: 83%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 1.42;
+    color: #333;
+    display: table;
+}
+.atas{
+    width: 75%;
+    float: left;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 320px;
+}
+.top-btn{
+    width: 50%;
+    height: -20px;
+}
+.masuk button{
+    box-sizing: border-box;
+    margin-right: 20px;
+    vertical-align: middle;
+    position: relative;
+    float: left;
+    color: #FFF;
+    background-color: #428BCA;
+    border-color: #357EBD;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: -10px;
+}
+.choose-bahasa button{
+    margin-left: -10px;
+    position: relative;
+    vertical-align: middle;
+    color: #FFF;
+    background-color: #5CB85C;
+    border-color: #4CAE4C;
+    padding: 6px 12px;
+    margin-top: -10px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    float: left;
+}
+.ctrl-lb{
+    margin-left: 7px;
+    font-size: 0.9em;
+    font-weight: normal;
+    display: inline;
+    margin-top: -50px;
+}
+.teks-tes{
+    background-color: #FFF;
+    padding: 6px 10px 25px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 75px;
+    width: 900px;
+    overflow: hidden;
+    color: #1D4851;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2em;
+    border: 1px solid #8EB6D8;
+    border-radius: 4px;
+    margin-right: -15px;
+    margin-left: 0px;
+}
+.input-tes{
+    padding: 4px;
+    background: #A7C8E7;
+    border-radius: 4px;
+    margin-right: -15px;
+    margin-left: 0px;
+    height: 50px;
+    width: 920px;
+}
+.group-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.group-input input{
+    border-top: 1px solid #575757;
+    height: 35px;
+    border-right: 1px solid #6B7A89;
+    border-bottom: 1px solid #70869B;
+    border-left: 1px solid #525A62;
+    font-size: 2em;
+    line-height: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+.form-control{
+    display: inline-block;
+    width: 483px;
+    padding: 6px 12px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    margin-right: 7px;
+}
+.timer{
+    float: right;
+    display: flex;
+}
+.cont-timer{
+    width: 70px;
+    margin-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    height: 35px;
+    text-align: center;
+    font-size: 1.6em;
+    border-radius: 3px;
+    color: white;
+    background: #3C4D5C;
+}
+.restart{
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+    color: #FFF;
+    background-color: #428BCA;
+    border-color: #357EBD;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.cont-timer .restart{
+    display: flex;
+    flex-direction: column;
+}
+.bawah{
+    margin-top: 40px;
+    width: 66%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.nav{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav ul{
+    margin-top: 0;
+}
+.nav li{
+    float: left;
+    margin-bottom: -1px;
+    position: relative;
+    display: block;
+}
+.nav .nav-act{
+    color: #555;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-bottom-color: transparent;
+    margin-right: 2px;
+    line-height: 1.42;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav .nav-pasv{
+    background: #D3E9FE;
+    margin-right: 2px;
+    line-height: 1.42;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #428BCA;
+}
+.tb-data{
+    background: white;
+    border-radius: 2px 2px 5px 5px;
+}
+.desc{
+    margin-top: 42px;
+    padding: 10px;
+    font-size: 0.9em;
+}
+.desc p {
+    margin: 10px 0 10px;
+}
+.desc p a{
+    color: #248BCA;
+    text-decoration: none;
+    background: transparent;
+}
+.table{
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    /* border-spacing: 5px; */
+    padding: 8px;
+    line-height: 1.42;
+}
+.table thead{
+    text-align: left;
+}
+.table tbody{
+    border-top: 2px solid #DDD;
+}
+th, td {
+    border-bottom: 1px solid #DDD;
+}
+.table a{
+    color: #428BCA;
+    text-decoration: none;
+}
+.pembatas{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background: url('/TugasUTS/assets/content-bg.png');
+    border-top: 1px solid #70869B;
+    border-bottom: 1px solid white;
+}
+.footer{
+    border-top: 1px solid black;
+    background: #161C20;
+    color: #DDD;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 65vh;
+}
+.foot-box{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+}
+.foot-box .kiri, .tengah{
+    width: 33.33%;
+    float: left;
+    position: relative;
+    padding-right: 15px;
+}
+.foot-box .kiri h3, .tengah h3, .right h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+}
+.foot-box .kiri ul, .tengah ul, .right ul{
+    padding-left: 5px;
+}
+.foot-box .kiri li, .tengah li, .right li{
+    border-radius: 4px;
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+    color: #428BCA;
+    text-decoration: none;
+    background: transparent;
+    font-size: 14px;
+}
+.foot-box .kiri p{
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #666666;
+    margin-top: 2px;
+    margin-left: 0;
+    font-size: 14px;
+}
+.foot-box .right{
+    float: left;
+}
